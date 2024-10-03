@@ -1,2 +1,2 @@
-Enter.
+Enter. Python.
 мои задания
