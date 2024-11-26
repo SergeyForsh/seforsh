@@ -1,4 +1,4 @@
-import sqlite3i
+import sqlite3
 from aiogram import Bot, Dispatcher, types
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from aiogram.utils import executor
@@ -10,7 +10,7 @@ bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 
 # Создаем подключение к базе данных
-conn = sqlite3i.connect("survey_results.db")
+conn = sqlite3.connect("survey_results.db")
 cursor = conn.cursor()
 
 # Создаем таблицу для хранения данных
